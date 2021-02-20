@@ -28,34 +28,6 @@ class FlowerNonViewP extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // RaisedButton(
-            //   child: Text("dark"),
-            //   onPressed: () {
-            //     Provider.of<CustomThemeDataModal>(context)
-            //         .setThemeData(ThemeData.dark());
-            //   },
-            // ),
-            // RaisedButton(
-            //   child: Text("light"),
-            //   onPressed: () {
-            //     Provider.of<CustomThemeDataModal>(context)
-            //         .setThemeData(ThemeData.light());
-            //   },
-            // ),
-            // RaisedButton(
-            //   child: Text("veli"),
-            //   onPressed: () {
-            //     Provider.of<CustomThemeDataModal>(context)
-            //         .setThemeData(veliThemeData);
-            //   },
-            // ),
-            // RaisedButton(
-            //   child: Text("purple"),
-            //   onPressed: () {
-            //     Provider.of<CustomThemeDataModal>(context)
-            //         .setThemeData(myTheme);
-            //   },
-            // ),
             Expanded(
               child: ListView.builder(
                 itemCount: Provider.of<DarkFlowersModel>(context, listen: true)
